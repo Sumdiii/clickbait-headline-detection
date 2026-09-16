@@ -1,0 +1,19 @@
+DATASET TO USE
+
+Kaggle:
+https://www.kaggle.com/datasets/amananandrai/clickbait-dataset
+
+Download the dataset from Kaggle.
+
+Then place the CSV file here:
+
+clickbait_headline_detection/
+└── data/
+    └── raw/
+        └── your_downloaded_file.csv
+
+You do NOT need to rename the file.
+
+The prepare_data.py script automatically searches for CSV files and identifies:
+- Headline
+- Clickbait

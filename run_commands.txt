@@ -1,0 +1,24 @@
+OPEN VS CODE TERMINAL IN THE PROJECT FOLDER
+
+1. Create virtual environment:
+python -m venv venv
+
+2. Activate:
+venv\Scripts\activate
+
+3. Install packages:
+pip install -r requirements.txt
+
+4. Put the Kaggle CSV inside:
+data/raw/
+
+5. Prepare dataset and create EDA:
+python prepare_data.py
+
+6. Train all models:
+python train_models.py
+
+7. Start dashboard:
+streamlit run app.py
+
+The browser will open the Streamlit dashboard.

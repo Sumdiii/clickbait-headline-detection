@@ -1,0 +1,8 @@
+               precision    recall  f1-score   support
+
+Not Clickbait     0.9435    0.9556    0.9495      3200
+    Clickbait     0.9550    0.9428    0.9489      3200
+
+     accuracy                         0.9492      6400
+    macro avg     0.9493    0.9492    0.9492      6400
+ weighted avg     0.9493    0.9492    0.9492      6400
